@@ -1,0 +1,125 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=icon.ico><title>冻e网</title><style>html, body, #app {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+      }
+      .d2-app-loading-group {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+        background-blend-mode: multiply,multiply;
+      }
+      .d2-app-loading-title {
+        color: #FFF;
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        letter-spacing: 0.2em;
+      }
+      .d2-app-loading-sub-title {
+        color: #FFF;
+        font-size: 10px;
+        margin-bottom: 10px;
+      }
+      .d2-app-loading-sub-info {
+        color: #FFF;
+        font-size: 10px;
+        opacity: .8;
+        margin-bottom: 4px;
+      }
+      .d2-app-loading-btn {
+        text-decoration: none;
+        display: inline-block;
+        line-height: 1;
+        white-space: nowrap;
+        cursor: pointer;
+        background: #fff;
+        border: 1px solid #dcdfe6;
+        border-color: #dcdfe6;
+        color: #606266;
+        -webkit-appearance: none;
+        text-align: center;
+        box-sizing: border-box;
+        outline: none;
+        margin: 0;
+        transition: .1s;
+        font-weight: 500;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        padding: 12px 20px;
+        font-size: 14px;
+        border-radius: 4px;
+        /* 圆角 */
+        padding: 7px 15px;
+        border-radius: 20px;
+        font-size: 12px;
+      }
+      .d2-app-loading-grid {
+        width: 30px;
+        height: 30px;
+      }
+      .d2-app-loading-grid .d2-app-loading {
+        width: 10px;
+        height: 10px;
+        background-color: #FFF;
+        float: left;
+        -webkit-animation: d2-app-loading-grid-scale-delay 1.3s infinite ease-in-out;
+                animation: d2-app-loading-grid-scale-delay 1.3s infinite ease-in-out; 
+      }
+      .d2-app-loading-grid .d2-app-loading1 {
+        border-top-left-radius: 4px;
+        -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s; }
+      .d2-app-loading-grid .d2-app-loading2 {
+        -webkit-animation-delay: 0.3s;
+                animation-delay: 0.3s; }
+      .d2-app-loading-grid .d2-app-loading3 {
+        border-top-right-radius: 4px;
+        -webkit-animation-delay: 0.4s;
+                animation-delay: 0.4s; }
+      .d2-app-loading-grid .d2-app-loading4 {
+        -webkit-animation-delay: 0.1s;
+                animation-delay: 0.1s; }
+      .d2-app-loading-grid .d2-app-loading5 {
+        -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s; }
+      .d2-app-loading-grid .d2-app-loading6 {
+        -webkit-animation-delay: 0.3s;
+                animation-delay: 0.3s; }
+      .d2-app-loading-grid .d2-app-loading7 {
+        border-bottom-left-radius: 4px;
+        -webkit-animation-delay: 0s;
+                animation-delay: 0s; }
+      .d2-app-loading-grid .d2-app-loading8 {
+        -webkit-animation-delay: 0.1s;
+                animation-delay: 0.1s; }
+      .d2-app-loading-grid .d2-app-loading9 {
+        border-bottom-right-radius: 4px;
+        -webkit-animation-delay: 0.2s;
+                animation-delay: 0.2s; }
+
+      @-webkit-keyframes d2-app-loading-grid-scale-delay {
+        0%, 70%, 100% {
+          -webkit-transform: scale3D(1, 1, 1);
+                  transform: scale3D(1, 1, 1);
+        } 35% {
+          -webkit-transform: scale3D(0, 0, 1);
+                  transform: scale3D(0, 0, 1); 
+        }
+      }
+
+      @keyframes d2-app-loading-grid-scale-delay {
+        0%, 70%, 100% {
+          -webkit-transform: scale3D(1, 1, 1);
+                  transform: scale3D(1, 1, 1);
+        } 35% {
+          -webkit-transform: scale3D(0, 0, 1);
+                  transform: scale3D(0, 0, 1);
+        } 
+      }</style><script src=./script/ua-parser.min.js></script><script src=./script/ua.js></script><link as=style href=app.0071ff89.css rel=preload><link as=style href=chunk-vendors.b95e73dc.css rel=preload><link as=script href=static/js/app.81f99ede.js rel=preload><link as=script href=static/js/chunk-vendors.b5bab804.js rel=preload><link href=chunk-00e3.15a85036.css rel=prefetch><link href=chunk-17ca.f8e88c6a.css rel=prefetch><link href=chunk-1e4e.27c1c466.css rel=prefetch><link href=chunk-1e59.e7c30abe.css rel=prefetch><link href=chunk-28fd.a97729dd.css rel=prefetch><link href=chunk-33e3.b5b4cbb5.css rel=prefetch><link href=chunk-3433.557aa669.css rel=prefetch><link href=chunk-3836.52f0ac93.css rel=prefetch><link href=chunk-3f49.defd6dce.css rel=prefetch><link href=chunk-454f.a7bf79e3.css rel=prefetch><link href=chunk-45ed.ac994e7f.css rel=prefetch><link href=chunk-4b4b.b27a9edf.css rel=prefetch><link href=chunk-4c2c.562a4be0.css rel=prefetch><link href=chunk-64a9.8990fadc.css rel=prefetch><link href=chunk-7027.619541a1.css rel=prefetch><link href=chunk-939c.738d08b1.css rel=prefetch><link href=chunk-96c7.f13fd13d.css rel=prefetch><link href=chunk-9a16.c01f40c7.css rel=prefetch><link href=chunk-b283.ff1ced81.css rel=prefetch><link href=chunk-c080.c5eb09a1.css rel=prefetch><link href=chunk-e488.dbf40aea.css rel=prefetch><link href=static/js/272c.7996b4dc.js rel=prefetch><link href=static/js/cb65.c25cf783.js rel=prefetch><link href=static/js/chunk-00e3.56769209.js rel=prefetch><link href=static/js/chunk-17ca.a05d0bec.js rel=prefetch><link href=static/js/chunk-1e4e.ed027c9b.js rel=prefetch><link href=static/js/chunk-1e59.e2181fb3.js rel=prefetch><link href=static/js/chunk-28fd.1286de24.js rel=prefetch><link href=static/js/chunk-33e3.943baa85.js rel=prefetch><link href=static/js/chunk-3433.fe27e036.js rel=prefetch><link href=static/js/chunk-3836.f6762e4e.js rel=prefetch><link href=static/js/chunk-3f49.b468332a.js rel=prefetch><link href=static/js/chunk-454f.c7eeb96f.js rel=prefetch><link href=static/js/chunk-45ed.5613628c.js rel=prefetch><link href=static/js/chunk-4b4b.6fea06d5.js rel=prefetch><link href=static/js/chunk-4c2c.8ad640be.js rel=prefetch><link href=static/js/chunk-64a9.4569398d.js rel=prefetch><link href=static/js/chunk-7027.c327e9a8.js rel=prefetch><link href=static/js/chunk-939c.0c7b43b0.js rel=prefetch><link href=static/js/chunk-96c7.de2bcf0d.js rel=prefetch><link href=static/js/chunk-9a16.ce2d6917.js rel=prefetch><link href=static/js/chunk-b283.b5c2fd72.js rel=prefetch><link href=static/js/chunk-c080.3d30e0e5.js rel=prefetch><link href=static/js/chunk-e488.67979d78.js rel=prefetch><link href=chunk-vendors.b95e73dc.css rel=stylesheet><link href=app.0071ff89.css rel=stylesheet></head><body><noscript><strong>冻e网后台管理中心</strong></noscript><div id=app><div class=d2-app-loading-group><div class=d2-app-loading-grid><div class="d2-app-loading d2-app-loading1"></div><div class="d2-app-loading d2-app-loading2"></div><div class="d2-app-loading d2-app-loading3"></div><div class="d2-app-loading d2-app-loading4"></div><div class="d2-app-loading d2-app-loading5"></div><div class="d2-app-loading d2-app-loading6"></div><div class="d2-app-loading d2-app-loading7"></div><div class="d2-app-loading d2-app-loading8"></div><div class="d2-app-loading d2-app-loading9"></div></div><div class=d2-app-loading-title>加载中</div><div class=d2-app-loading-sub-title>冻e网后台管理中心</div><div class=d2-app-loading-sub-info>如果很久很久都没有加载成功，请清空缓存重新加载页面</div></div></div><script src=static/js/chunk-vendors.b5bab804.js></script><script src=static/js/app.81f99ede.js></script></body></html>

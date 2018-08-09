@@ -1,0 +1,23 @@
+
+[
+        {
+                "name":"admin",
+                "display_name":"管理员",
+                "description":"管理员拥有所有权限"
+        },
+        {
+                "name":"finance",
+                "display_name":"财务",
+                "description":"数据统计相关"
+        },
+        {
+                "name":"market",
+                "display_name":"销售",
+                "description":"销售管理相关"
+        },
+        {
+        		"name":"user",
+        		"display_name":"用户",
+        		"description":"用户"
+        }
+]

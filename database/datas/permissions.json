@@ -1,0 +1,68 @@
+[
+        {
+                "name":"data-statistics",
+                "display_name":"数据-统计",
+                "description":"数据统计相关"
+        },
+        {
+                "name":"rbac",
+                "display_name":"权限-管理",
+                "description":"权限管理相关"
+        },
+        {
+                "name":"user",
+                "display_name":"用户-管理",
+                "description":"用户管理相关"
+        },
+        {
+                "name":"supplier",
+                "display_name":"供应商-管理",
+                "description":"供应商管理相关"
+        },
+        {
+                "name":"distribution",
+                "display_name":"配送-管理",
+                "description":"配送管理相关"
+        },
+        {
+                "name":"order",
+                "display_name":"订单-管理",
+                "description":"订单管理相关"
+        },
+        {
+                "name":"goods-type",
+                "display_name":"商品-类别",
+                "description":"商品类别相关"
+        },
+        {
+                "name":"market",
+                "display_name":"销售-管理",
+                "description":"销售管理相关"
+        },
+        {
+                "name":"repositories",
+                "display_name":"仓库-管理",
+                "description":"仓库管理相关"
+        },
+
+        {
+                "name":"red-packet",
+                "display_name":"优惠券-管理",
+                "description":"优惠券管理相关"
+        },
+        {
+                "name":"system-config",
+                "display_name":"系统-设置",
+                "description":"系统设置相关"
+        },
+        {
+                "name":"help-center",
+                "display_name" :"帮助中心-管理",
+                "description" : "帮助中心相关"
+        },
+        {
+                "name":"banner",
+                "display_name" :"banner-管理",
+                "description" : "banner相关"
+        }
+]
